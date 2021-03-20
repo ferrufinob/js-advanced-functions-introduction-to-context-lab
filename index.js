@@ -87,7 +87,7 @@ function calculatePayroll(employeeArray) {
 }
 
 // TESTING
-let bre = createEmployeeRecord(["Brenda", "Ferrufino", "Loser", 30]);
+let bre = createEmployeeRecord(["Brenda", "Ferrufino", "n/a", 30]);
 let tommy = createEmployeeRecord(["Tommy", "T", "Bar", 30]);
 let clockIn1 = createTimeInEvent(bre, "2009-09-17 0900");
 let clockIn2 = createTimeInEvent(bre, "2009-09-18 0900");
